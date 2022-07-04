@@ -1,0 +1,17 @@
+{
+  "name": "july-server",
+  "version": "1.0.0",
+  "description": "A Peerjs + Signaling server for Game Streaming Software",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ragul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "peer": "^0.6.1",
+    "socket.io": "^4.5.1"
+  }
+}
