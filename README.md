@@ -31,7 +31,7 @@ Will it works ?
 
 Tested on "Redmi Note 9 Pro" Mobile (Edge Browser & React Native WebView).
 
-Gameplay Test : I had tried GTA 5 and its working good. But the key mapping is not fully completed. Soon the stable version source code will be released.
+Gameplay Test : I tried GTA 5 and its working good. But the key mapping is not fully completed. Soon the stable version source code will be released.
 
 Youtube Link : https://youtu.be/dSmpw0J824g
 
