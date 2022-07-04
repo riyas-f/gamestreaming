@@ -1,0 +1,14 @@
+{
+  "name": "july",
+  "version": "1.0.0",
+  "description": "July - The Game Streaming Software.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ragul",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.6"
+  }
+}
