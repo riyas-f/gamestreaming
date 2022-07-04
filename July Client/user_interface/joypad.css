@@ -1,0 +1,389 @@
+/*Joypad arrows design*/
+.arrows-container{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0;
+    margin-left: 40px;
+    bottom: 10%;
+}
+
+.arrow-top-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.arrow-middle-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.arrow-bottom-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.up-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.left-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.right-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.down-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.up-arrow:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+                0 0 25px rgb(255, 255, 255);
+    user-select: none;
+} 
+
+.down-arrow:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+                0 0 25px rgb(255, 255, 255);
+    user-select: none;
+} 
+
+.right-arrow:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+                0 0 25px rgb(255, 255, 255);
+    user-select: none;
+} 
+
+.left-arrow:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+                0 0 25px rgb(255, 255, 255);
+    user-select: none;
+}
+
+/* Joypad buttons design */
+.buttons-container{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 0;
+    margin-right: 40px;
+    bottom: 10%;
+}
+
+.button-top-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.button-middle-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.button-bottom-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.button-y {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-x {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-b {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-y:hover{
+    background-color: rgb(255, 255, 64);
+    box-shadow: 0 0 5px rgb(255, 255, 64),
+                0 0 25px rgb(255, 255, 64);
+    user-select: none;
+}
+
+.button-x:hover{
+    background-color: rgb(0, 183, 255);
+    box-shadow: 0 0 5px rgb(0, 183, 255),
+                0 0 25px rgb(0, 183, 255);
+    user-select: none;
+}
+
+.button-b:hover{
+    background-color: rgb(253, 44, 44);
+    box-shadow: 0 0 5px rgb(253, 44, 44),
+                0 0 25px rgb(253, 44, 44);
+    user-select: none;
+}
+
+.button-a:hover{
+    background-color: rgb(5, 214, 5);
+    box-shadow: 0 0 5px rgb(5, 214, 5),
+                0 0 25px rgb(5, 214, 5);
+    user-select: none;
+}
+
+/* Joystick UI design */
+.left-joystick-outline {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    left: 32%;
+    bottom: 16%;
+}
+
+.left-stick {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.right-joystick-outline {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    right: 32%;
+    bottom: 16%;
+}
+
+.right-stick {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/* Jopypad other Left & Right buttons design */
+.left-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 0;
+}
+.back-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.lb-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.lt-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.back {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+}
+.lb {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+}
+.lt {
+    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+}
+
+
+.right-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    right: 0;
+}
+.start-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.rb-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.rt-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.start {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+}
+.rb {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+}
+.rt {
+    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+    user-select: none;
+}
+
+.lt:hover {
+    user-select: none;
+}
+.lb:hover {
+    user-select: none;
+}
+.rt {
+    user-select: none;
+}
+.rb {
+    user-select: none;
+}

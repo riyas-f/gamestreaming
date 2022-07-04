@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+video {
+    object-fit: fill;
+    z-index: 0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#AI {
+    position: absolute;
+    z-index: 1;
+    padding: 8px;
+    color: white;
+    background-color: rgb(14, 0, 0, 0.3);
+    top: 10%;
+    left: 10%;
+    transition: 2s;
+    border-radius: 2px;
+}
+
+.access-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    visibility: visible;
+}
+
+.material-icons {
+    color: white;
+    user-select: none;
+    border: 1px solid white;
+    background-color: rgb(14, 0, 0, 0.3);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#keyboard-logo {
+    font-size: 40px;
+}
+
+/* Joypad ui design */
+.joypad-interface {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.arrows-container{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.arrow-top-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.arrow-middle-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.arrow-bottom-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.up-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.left-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.right-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.down-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.buttons-container{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.button-top-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.button-middle-row {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.button-bottom-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.button-y {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-x {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-b {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5) inset;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.button-y:hover{
+    background-color: rgb(255, 255, 64);
+    box-shadow: 0 0 5px rgb(255, 255, 64),
+                0 0 25px rgb(255, 255, 64);
+    user-select: none;
+}
+
+.button-x:hover{
+    background-color: rgb(0, 183, 255);
+    box-shadow: 0 0 5px rgb(0, 183, 255),
+                0 0 25px rgb(0, 183, 255);
+    user-select: none;
+}
+
+.button-b:hover{
+    background-color: rgb(253, 44, 44);
+    box-shadow: 0 0 5px rgb(253, 44, 44),
+                0 0 25px rgb(253, 44, 44);
+    user-select: none;
+}
+
+.button-a:hover{
+    background-color: rgb(5, 214, 5);
+    box-shadow: 0 0 5px rgb(5, 214, 5),
+                0 0 25px rgb(5, 214, 5);
+    user-select: none;
+}

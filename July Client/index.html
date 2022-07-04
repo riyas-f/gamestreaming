@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>PROJECT JULY</title>
+
+    <!-- stylesheet -->
+    <link href="./user_interface/main.css" rel="stylesheet">
+    <link href="./user_interface/keyboard.css" rel="stylesheet">
+    <link href="./user_interface/joypad.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- stylesheet -->
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js" defer></script>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" 
+        integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/peerjs@1.4.5/dist/peerjs.min.js"></script>
+    <script src="engine.js" defer></script>
+    <!-- script -->
+
+</head>
+<body>
+    <span class="access-container" id="easy-access">
+        <span id="keyboard-access">
+            <i class="material-icons" id="keyboard-logo">keyboard</i>
+        </span>
+        <span id="joypad-access">
+            <i class="material-icons" id="keyboard-logo">sports_esports</i>
+        </span>
+    </span>
+    <div class="container" id="input-box">
+        <span>
+            <input type="text" id="software-id">
+            <button id="connect">Connect</button>
+        </span>
+    </div>
+</body>
+</html>
