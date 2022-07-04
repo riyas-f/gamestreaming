@@ -1,4 +1,4 @@
-# Project-July - (Dev)
+# Project-July - (DEV)
 Game Streaming / Remote Desktop Software Suite
 Project-July is a "Remote Desktop & Game Streaming" software suite is fully based on "Peer to Peer" communication. So the server is only required at the time of signaling. 🤝
 
