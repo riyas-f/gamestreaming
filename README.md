@@ -4,7 +4,8 @@ Project-July is a "Remote Desktop & Game Streaming" software suite is fully base
 
 
 
-What is Project-July ?
+What is Project-July 
+
 
 Project-July is similar to remote deskop application but it mainly focus on playing "PC Games on mobile" through "Web Browser (WebView)" and mainly this project is open source. 
 Currently baisc functionalites were added to web application like Typewriting, Touch events and Minimal Virtual Joypad Controls.
